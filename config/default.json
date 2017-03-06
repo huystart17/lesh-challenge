@@ -1,0 +1,27 @@
+{
+  "host": "localhost",
+  "port": 3030,
+  "mongodb": "mongodb://localhost:27017/leshChallenge",
+  "public": "../public/",
+  "auth": {
+    "token": {
+      "secret": "+xaFPMMMlmZgOVhhn+cBMUn3PpR0qP2IUwP6HSFBa8e9aMEHx9xrSf9+qqRmeO1KbHEtHJdj7U741b+BEvs+5g=="
+    },
+    "local": {},
+    "facebook": {
+      "clientID": "your facebook client id",
+      "clientSecret": "your facebook client secret",
+      "permissions": {
+        "scope": ["public_profile","email"]
+      }
+    },
+    "google": {
+      "clientID": "258607225053-vcharisbusjoaqgr2i85pqhuqq6pv8qu.apps.googleusercontent.com",
+      "clientSecret": "oG_qifqpbveedOlrnGT8dg79",
+      "permissions": {
+        "scope": ["profile"]
+      }
+    }
+  },
+  "corsWhitelist": []
+}
